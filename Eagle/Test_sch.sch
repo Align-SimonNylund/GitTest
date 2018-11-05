@@ -379,6 +379,105 @@ Origin corrected by alf@cadsoft.de</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="buzzer" urn="urn:adsk.eagle:library:113">
+<description>&lt;b&gt;Speakers and Buzzers&lt;/b&gt;&lt;p&gt;
+&lt;ul&gt;Distributors:
+&lt;li&gt;Buerklin
+&lt;li&gt;Spoerle
+&lt;li&gt;Schukat
+&lt;/ul&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="AL30P" urn="urn:adsk.eagle:footprint:5252/1" library_version="1">
+<description>&lt;b&gt;SPEAKER&lt;/b&gt;</description>
+<wire x1="-6.2865" y1="-0.9311" x2="-6.2865" y2="0.9311" width="0.1524" layer="21" curve="284.682646"/>
+<wire x1="-8.5725" y1="1.0758" x2="-8.5725" y2="-1.0758" width="0.1524" layer="21" curve="270.196719"/>
+<wire x1="-8.5725" y1="-1.0758" x2="-8.5725" y2="1.0758" width="0.1524" layer="51" curve="89.803281"/>
+<wire x1="-6.2865" y1="0.9311" x2="-6.2865" y2="-0.9311" width="0.1524" layer="51" curve="75.317354"/>
+<wire x1="6.2865" y1="0.9311" x2="6.2865" y2="-0.9311" width="0.1524" layer="21" curve="284.682646"/>
+<wire x1="8.5725" y1="-1.0758" x2="8.5725" y2="1.0758" width="0.1524" layer="21" curve="270.196719"/>
+<wire x1="6.2865" y1="-0.9311" x2="6.2865" y2="0.9311" width="0.1524" layer="51" curve="75.317354"/>
+<wire x1="8.5725" y1="1.0758" x2="8.5725" y2="-1.0758" width="0.1524" layer="51" curve="89.803281"/>
+<circle x="0" y="0" radius="14.986" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="12.7" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="1.524" width="0.1524" layer="21"/>
+<circle x="0" y="5.08" radius="1.524" width="0.1524" layer="21"/>
+<circle x="0" y="-5.08" radius="1.524" width="0.1524" layer="21"/>
+<circle x="0" y="9.652" radius="1.524" width="0.1524" layer="21"/>
+<circle x="0" y="-9.652" radius="1.524" width="0.1524" layer="21"/>
+<circle x="-8.3589" y="-4.826" radius="1.524" width="0.1524" layer="21"/>
+<circle x="-4.826" y="-8.3589" radius="1.524" width="0.1524" layer="21"/>
+<circle x="-3.5921" y="-3.5921" radius="1.524" width="0.1524" layer="21"/>
+<circle x="-8.3589" y="4.826" radius="1.524" width="0.1524" layer="21"/>
+<circle x="-4.826" y="8.3589" radius="1.524" width="0.1524" layer="21"/>
+<circle x="-3.5921" y="3.5921" radius="1.524" width="0.1524" layer="21"/>
+<circle x="8.3589" y="-4.826" radius="1.524" width="0.1524" layer="21"/>
+<circle x="4.826" y="-8.3589" radius="1.524" width="0.1524" layer="21"/>
+<circle x="3.5921" y="-3.5921" radius="1.524" width="0.1524" layer="21"/>
+<circle x="4.826" y="8.3589" radius="1.524" width="0.1524" layer="21"/>
+<circle x="3.5921" y="3.5921" radius="1.524" width="0.1524" layer="21"/>
+<circle x="8.3589" y="4.826" radius="1.524" width="0.1524" layer="21"/>
+<pad name="1" x="-7.493" y="0" drill="1.1938" diameter="2.54" shape="octagon"/>
+<pad name="2" x="7.493" y="0" drill="1.1938" diameter="2.54" shape="octagon"/>
+<text x="7.747" y="13.97" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="11.43" y="-12.065" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="AL30P" urn="urn:adsk.eagle:package:5288/1" type="box" library_version="1">
+<description>SPEAKER</description>
+<packageinstances>
+<packageinstance name="AL30P"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="SP" urn="urn:adsk.eagle:symbol:5218/1" library_version="1">
+<wire x1="-1.905" y1="-0.635" x2="1.905" y2="-0.635" width="0.254" layer="94"/>
+<wire x1="1.905" y1="-0.635" x2="1.905" y2="0" width="0.254" layer="94"/>
+<wire x1="1.905" y1="2.54" x2="-1.905" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="-0.635" x2="-1.905" y2="0" width="0.254" layer="94"/>
+<wire x1="1.905" y1="2.54" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="2.54" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.905" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="0" x2="1.905" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.905" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="0" x2="-1.905" y2="2.54" width="0.254" layer="94"/>
+<text x="-3.81" y="6.35" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-3.175" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="AL30P" urn="urn:adsk.eagle:component:5321/1" prefix="SP" library_version="1">
+<description>&lt;b&gt;SPEAKER&lt;/b&gt;&lt;p&gt; Source: Buerklin</description>
+<gates>
+<gate name="G$1" symbol="SP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="AL30P">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5288/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -391,10 +490,13 @@ Origin corrected by alf@cadsoft.de</description>
 <parts>
 <part name="U1" library="aplus" library_urn="urn:adsk.eagle:library:103" deviceset="APR9600_DIP-28" device="" package3d_urn="urn:adsk.eagle:package:4145/1"/>
 <part name="U2" library="aplus" library_urn="urn:adsk.eagle:library:103" deviceset="APR9600_DIP-28" device="" package3d_urn="urn:adsk.eagle:package:4145/1"/>
+<part name="SP1" library="buzzer" library_urn="urn:adsk.eagle:library:113" deviceset="AL30P" device="" package3d_urn="urn:adsk.eagle:package:5288/1"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
+<rectangle x1="10.16" y1="111.76" x2="30.48" y2="127" layer="91"/>
+<rectangle x1="60.96" y1="106.68" x2="73.66" y2="124.46" layer="91"/>
 </plain>
 <instances>
 <instance part="U1" gate="A" x="43.18" y="45.72" smashed="yes">
@@ -404,6 +506,10 @@ Origin corrected by alf@cadsoft.de</description>
 <instance part="U2" gate="A" x="-55.88" y="43.18" smashed="yes">
 <attribute name="NAME" x="-60.8584" y="77.47" size="2.0828" layer="95" ratio="10" rot="SR0"/>
 <attribute name="VALUE" x="-62.5856" y="2.6162" size="2.0828" layer="96" ratio="10" rot="SR0"/>
+</instance>
+<instance part="SP1" gate="G$1" x="45.72" y="116.84" smashed="yes">
+<attribute name="NAME" x="41.91" y="123.19" size="1.778" layer="95"/>
+<attribute name="VALUE" x="41.91" y="113.665" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -425,6 +531,19 @@ Origin corrected by alf@cadsoft.de</description>
 <pinref part="U1" gate="A" pin="/STROBE"/>
 <wire x1="7.62" y1="60.96" x2="7.62" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="66.04" x2="20.32" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="SP1" gate="G$1" pin="1"/>
+<wire x1="40.64" y1="116.84" x2="30.48" y2="116.84" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="SP1" gate="G$1" pin="2"/>
+<wire x1="50.8" y1="116.84" x2="50.8" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="114.3" x2="66.04" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
