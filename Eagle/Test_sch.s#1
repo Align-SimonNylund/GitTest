@@ -395,6 +395,8 @@ Origin corrected by alf@cadsoft.de</description>
 <sheets>
 <sheet>
 <plain>
+<rectangle x1="10.16" y1="111.76" x2="30.48" y2="127" layer="91"/>
+<rectangle x1="60.96" y1="106.68" x2="73.66" y2="124.46" layer="91"/>
 </plain>
 <instances>
 <instance part="U1" gate="A" x="43.18" y="45.72" smashed="yes">
